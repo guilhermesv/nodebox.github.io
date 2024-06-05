@@ -38,8 +38,8 @@ section: download
     <h3>Downloading NodeBox 3 for Linux</h3>
     <p>We don't have a package ready, but executing the following commands in the terminal will get you going:</p>
     <pre>
-       sudo apt-get install git-core openjdk-7-jdk ant
-       git clone git://github.com/nodebox/nodebox.git
+       sudo apt-get install git-core openjdk-11-jdk ant
+       git clone https://github.com/nodebox/nodebox
        cd nodebox
        ant run
     </pre>
